@@ -87,3 +87,62 @@ footer {
     color: white;
     margin-top: auto;
 }
+
+/* Hidden class */
+.hidden {
+    display: none !important;
+}
+
+/* Institutions Section */
+.institutions {
+    text-align: center;
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.institutions h2 {
+    color: #0056b3;
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-top: 4px solid #0056b3;
+    text-align: left;
+}
+
+.card h3 {
+    color: #0056b3;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+#backBtn {
+    background-color: transparent;
+    color: #0056b3;
+    border: 2px solid #0056b3;
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#backBtn:hover {
+    background-color: #0056b3;
+    color: white;
+}

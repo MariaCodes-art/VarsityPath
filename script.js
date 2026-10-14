@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Durban University of Technology", location: "Durban", type: "University of Technology" },
         { name: "Varsity College", location: "Multiple Campuses", type: "Private College" }
     ];
-
+  
     // 2. Get elements from the HTML
     const heroSection = document.getElementById('heroSection');
     const exploreBtn = document.getElementById('exploreBtn');

@@ -38,6 +38,18 @@
                     <button id="browseBtn" class="secondary-btn">Browse Directory</button>
                 </div>
 
+                <!-- Opportunity Explorer for those that don't want traditional universities -->
+                 <div class="panel opportunities-panel">
+                 <h3>Discover More Opportunities</h3>
+                 <p>
+                  Explore TVET colleges, nursing programmes, specialist training,
+                  apprenticeships, bursaries and international study opportunities funded by south african government.
+                  </p>
+                   <button id="opportunitiesBtn" class="secondary-btn">
+                    Explore All Opportunities
+                     </button>
+                 </div>
+
                 <!-- Right Side: Calculate APS -->
                 <div class="panel aps-panel">
                     <h3>Calculate My APS</h3>
@@ -67,7 +79,41 @@
 
             <button id="backToDashboardBtn" class="back-btn">&larr; Back to Dashboard</button>
         </section>
-    </main>
+
+             
+         <!-- Feature: Opportunity Directory -->
+<section id="opportunitiesSection" class="app-container hidden">
+    <h2>Discover Opportunities Beyond University</h2>
+    <p class="subtitle">
+        Explore different study, training and funding pathways
+        that match your interests and goals.
+    </p>
+
+    <!-- Feature: Opportunity Category Filter -->
+    <div class="opportunity-filters">
+        <label for="opportunityCategory">Choose a category:</label>
+        <select id="opportunityCategory">
+            <option value="all">All Opportunities</option>
+            <option value="tvet">TVET Colleges</option>
+            <option value="nursing">Nursing and Healthcare</option>
+            <option value="technical">Technical and Specialist Training</option>
+            <option value="apprenticeships">Apprenticeships and Learnerships</option>
+            <option value="bursaries">Bursaries and Scholarships</option>
+            <option value="international">International Study Programmes</option>
+            <option value="second-chance">Second Chance Education</option>
+        </select>
+    </div>
+
+    
+    <div id="opportunitiesGrid" class="grid-container"></div>
+
+    <!-- Navigation: Return to the main dashboard. -->
+    <button id="backFromOpportunitiesBtn" class="back-btn">
+        &larr; Back to Dashboard
+    </button>
+</section>
+     
+   </main>
 
     <footer>
         <p>&copy; 2026 VarsityPath. FNB Hackathon Project.</p>

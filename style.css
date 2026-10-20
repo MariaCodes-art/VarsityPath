@@ -283,3 +283,60 @@ footer {
         flex-direction: column;
     }
 }
+
+
+/* Feature: Opportunity Explorer Panel */
+.opportunities-panel {
+    margin-bottom: 2rem;
+    text-align: left;
+    border-left: 5px solid #0056b3;
+}
+
+/* Feature: Opportunity Category Filters */
+.opportunity-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 450px;
+    margin: 0 auto 2rem;
+    text-align: left;
+}
+
+.opportunity-filters label {
+    font-weight: bold;
+    color: #333;
+}
+
+.opportunity-filters select {
+    width: 100%;
+    padding: 0.9rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Feature: Opportunity Directory Cards */
+#opportunitiesGrid .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#opportunitiesGrid .apply-btn {
+    align-self: flex-start;
+}
+
+/* Responsive Feature: Opportunity Explorer */
+@media (max-width: 768px) {
+    .opportunities-panel {
+        padding: 1.5rem;
+    }
+
+    .opportunity-filters {
+        max-width: 100%;
+    }
+}
+
+
